@@ -46,7 +46,11 @@ export const StyledMain = styled.main`
   grid-area: cont;
   padding: 3rem;
   display: grid;
+
+  //Define colunas de forma dinâmica.
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  // Não sei se isso afeta em algo coloquei apenas para testes
   grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
   justify-content: center;
   align-items: start;
